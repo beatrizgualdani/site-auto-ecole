@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<meta charset ="utf-8">
+		<link rel="stylesheet" href="style.css" type="text/css">
+	</head>
+	<body>
+		<h1 ALIGN = 'center'> Ajouter un élève
+		</h1>
+		<form action="ajouter_eleve.php" method="post">
+			<p align="center"><label for="nom">Nom: </label>
+			<input type="text" name="nom" required maxlength = 30 size="30" placeholder="Ex : GUALDANI DE VASCONCELOS"></p>
+			<p align="center"><label for="prenom">Prénom :</label>
+			<input type="text" name="prenom" required maxlength = 30 size="30" placeholder="Ex : Beatriz"></p>
+			<p align="center"><label for="dateNaiss">Date de naissance:</label>
+			<input type="date" name="dateNaiss" required />
+			<br>
+			<input type='submit' name='boutonvalider' value='VALIDER'/>
+		</form>
+	</body>
+</html>
+
