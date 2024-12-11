@@ -1,0 +1,147 @@
+
+.menu {
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu a {
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    font-size: large;
+    background-color: #658578;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 11px #28332e;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.menu a:hover {
+    background-color: #6d97a8;
+    transform: scale(1.05);
+}
+
+
+.menu a:focus {
+    outline: none;
+    background-color: #28332e;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #bce9fd;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+    font-size: xxx-large;
+}
+
+form {
+    background-color: #aed4c5;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 11px #28332e;
+}
+
+label {
+    font-size: x-large;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"], input[type="date"], input[type="number"], textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #849da8;
+    border-radius: 5px;
+    font-size: large;
+    background-color: #f0fbff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+input[type="submit"] {
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #6d97a8; 
+    color: white;
+    border: 1px solid #849da8;
+    border-radius: 5px;
+    font-size: large;
+    transition: background-color;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select {
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #849da8;
+    border-radius: 5px;
+    font-size: large;
+    background-color: #f0fbff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #658578;
+}
+
+p {
+    font-size: x-large;
+    color: #333;
+}
+
+th {
+    font-size: x-large;
+    color: #333;
+    font-weight: bold;
+}
+
+td {
+    font-size: x-large;
+    color: #333;
+    text-align: center;
+}
+
+
+.container {
+    font-size: x-large;
+    color: #333;
+}
+
+.long-text {
+    word-wrap: break-word; /* coupe les mots qui dépassent la largeur */
+    white-space: normal;  /* assurer que le texte coupé à la fin des lignes */
+    max-width: 100%;      /* limite la largeur du texte */
+}
+
+table {
+    margin: 20px auto;
+    width: 70%;
+    border-collapse: collapse;
+}
