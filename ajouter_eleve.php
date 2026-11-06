@@ -27,10 +27,10 @@
                 exit();
             }
 
-			$dbhost = 'tuxa.sme.utc';
-			$dbuser = 'nf92a029';
-			$dbpass = 'fhO30ICrrpvU';
-			$dbname = 'nf92a029';
+			$dbhost = '';
+            $dbuser = '';
+            $dbpass = '';
+            $dbname = '';
 
 			$connect = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname) or die ('Error connecting to mysql');
 			//la ligne suivante permet d'éviter les problèmes d'accent entre la page ouèbe et le serveur mysql
