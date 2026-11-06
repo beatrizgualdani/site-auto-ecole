@@ -14,10 +14,10 @@
 			//echo "<br> incrustation de code html";
 			echo "<p> Le <strong>nom</strong> du thème est : ".$nom."<p>";
 			echo "<p class='long-text'>Le <strong>descriptif</strong> du thème est : ".$descriptif."</p>";
-			$dbhost = 'tuxa.sme.utc';
-			$dbuser = 'nf92a029';
-			$dbpass = 'fhO30ICrrpvU';
-			$dbname = 'nf92a029';
+			$dbhost = '';
+            $dbuser = '';
+            $dbpass = '';
+            $dbname = '';
 
 			$connect = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname) or die ('Error connecting to mysql');
 			
