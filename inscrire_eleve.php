@@ -8,10 +8,10 @@
 		<h1>Inscrire un élève</h1>
         <p>
         <?php
-            $dbhost = 'tuxa.sme.utc';
-            $dbuser = 'nf92a029';
-            $dbpass = 'fhO30ICrrpvU';
-            $dbname = 'nf92a029';
+            $dbhost = '';
+            $dbuser = '';
+            $dbpass = '';
+            $dbname = '';
             $connect = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname) or die ('Error connecting to mysql');
             mysqli_set_charset($connect, 'utf8'); //les données envoyées vers mysql sont encodées en UTF-8
             
